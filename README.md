@@ -64,3 +64,16 @@ You are required to submit the following:
 * The URL to the deployed application
 
 * The URL to the GitHub repository
+
+
+
+---
+
+
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+---
+
+© 2021 Adriano.
