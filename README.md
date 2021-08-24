@@ -1,4 +1,7 @@
-# adrianos-budget-tracker-18
+# adrianos-workout-tracker-18
+![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)
+
+Homework 18 - Wourkout Tracker
 
 ---
 
