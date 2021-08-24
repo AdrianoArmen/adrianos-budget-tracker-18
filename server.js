@@ -10,6 +10,8 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+app.use(require("./routes"));
+
 app.use(express.static("public"));
 
 //Mongo Mongoose local host connection
