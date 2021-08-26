@@ -1,5 +1,7 @@
 const router = require("express").Router();
 
+// both routes defined for page display and api calls
+
 const apiRoutes = require("./apiR");
 const homeRoutes = require("./homeR");
 

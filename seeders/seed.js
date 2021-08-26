@@ -7,6 +7,7 @@ mongoose.connect("mongodb://localhost/workout", {
   useUnifiedTopology: true,
 });
 
+// seed data provided on instructions
 const workoutSeed = [
   {
     day: new Date(new Date().setDate(new Date().getDate() - 9)),
