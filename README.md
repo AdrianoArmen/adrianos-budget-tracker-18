@@ -9,7 +9,7 @@ Homework 18 - Wourkout Tracker NoSQL
 
 ## App Deployment on Heroku 📦
 
-- [App Deploy Link](https://safe-cliffs-79806.herokuapp.com/?id=61271664c9292e00160a9cab)
+- [App Deploy Link](https://safe-cliffs-79806.herokuapp.com/)
 
 ## Project Description 📋
 
