@@ -1,76 +1,33 @@
 # adrianos-workout-tracker-18
 ![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)
 
-Homework 18 - Wourkout Tracker
+Homework 18 - Wourkout Tracker NoSQL
 
----
+## GitHub Repository 🚀
 
+- [GitHub Repo Link](https://github.com/AdrianoArmen/adrianos-workout-tracker-18)
 
-# Unit 18 Nosql Homework: Workout Tracker
+## App Deployment on Heroku 📦
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+- [App Deploy Link](https://safe-cliffs-79806.herokuapp.com/?id=61271664c9292e00160a9cab)
 
-## User Story
+## Project Description 📋
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+This NoSQL workout tracker was designed to showcase my knowledge of [MongoDB](https://www.mongodb.com/es/cloud/atlas) and [Heroku](https://dashboard.heroku.com/apps) deployment. This application allows the user to track and save their exercise routine so they can manage their workout routine. The final part of the project was setting up the [Mongoose](https://mongoosejs.com/) database connection with [MongoDB Atlas](https://www.mongodb.com/es/cloud/atlas/register) and having all the desired functionality on the deployed link.
 
-## Business Context
+## Mockup 🔧
 
-A consumer will reach their fitness goals more quickly when they track their workout progress.
+- The following animation demonstrates the actual application functionality:
 
-## Acceptance Criteria
+![Basic navigation of the workout tracker app saving a new exercise and visiting the dashboard](./readmeimg/appfunctionality.gif)
 
-When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+## Technologies used 🛠️
 
-The user should be able to:
+- [MongoDB](https://www.mongodb.com/es/cloud/atlas) - global cloud database service
+- [Mongoose](https://mongoosejs.com/) - database shchema and validation for MongoDB
+- [Heroku](https://dashboard.heroku.com/apps) - deployment platform
+- [NPM](https://www.npmjs.com/) - package manager
 
-  * Add exercises to the most recent workout plan.
-
-  * Add new exercises to a new workout plan.
-
-  * View the combined weight of multiple exercises from the past seven workouts on the `stats` page.
-
-  * View the total duration of each workout from the past seven workouts on the `stats` page.
-
-> **Important:** Look into using a MongoDB aggregate function to dynamically add up and return the total duration for each workout. Check out the [MongoDB documentation on the $addFields](https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/), the [MongoDB documentation on the $sum operator](https://docs.mongodb.com/manual/reference/operator/aggregation/sum/), and the [Mongoose documentation on aggregate functions](https://mongoosejs.com/docs/api.html#aggregate_Aggregate) to learn how it can be accomplished.
-
-To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
-
-  * [Set Up MongoDB Atlas](../04-Important/MongoAtlas-Setup.md)
-
-  * [Deploy with Heroku and MongoDB Atlas](../04-Important/MongoAtlas-Deploy.md)
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for the following two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-2. Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We want you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL to the deployed application
-
-* The URL to the GitHub repository
-
-
-
----
 
 
 ## License 📄
